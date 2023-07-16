@@ -8,8 +8,11 @@ header{
     height: 100%;
     text-align: center;
     position: relative;
+    /* background: #000; */
 }
-
+.header__container__container{
+    display: flex;
+}
 
 
 /* ====================cta====================== */
@@ -31,6 +34,7 @@ header{
     position: absolute;
     left: 0;
     bottom: 3rem;
+    bottom: 22%;
 }
 
 .header__social::after{
@@ -46,7 +50,7 @@ header{
     height: 20rem;
     position: absolute;
     left: calc(50% - 10rem);
-    margin-top: 4rem;
+    margin-top: 6rem;
     border-radius: 12rem 12rem 0 0;
     overflow: hidden;
     padding: 0.5rem 0.5rem 0.5rem 0.5rem;
@@ -62,34 +66,35 @@ header{
     transform: rotate(90deg);
     font-weight: 600;
     font-size: 0.9rem;
-
+    bottom: 27%;
 }
 
 
 
- /* ================ Media  Queries(large devices ======================
- @media screen and (max-width:1500px) {
-    header{
-        height: 79vh;
-        padding: 2rem;
-    }
- } */
+
 
 
  /* ================ Media  Queries(medium devices ====================== */
- @media screen and (max-width:1024px) {
-    header{
-        height: 100vh;
-        padding: 5rem;
+ @media screen and (max-width:1070px) {
+    .scroll__down{
+        bottom: 30%;
+        
+    }
+    .header__social{
+        bottom: 22%;
+    }
+
+    .cta{
+        /* margin-top: 60px; */
     }
  }
 
 /* ================ Media  Queries(small devices ====================== */
 @media screen and (max-width:900px){
     header{
-        height: 100vh;
-        padding-top: 5rem;
-       }
+        /* height: 100vh; */
+        /* padding-top: 5rem; */  
+    }
        
      
 }
@@ -97,9 +102,16 @@ header{
 
 @media screen and (max-width:600px){
     header{
-        height: 68vh;
-        padding-top: 5rem;
-       }
+        /* height: 68vh; */
+        /* padding-top: 5rem; */
+    }
+       
+     
+}
+@media screen and (max-width:600px){
+    header{
+    
+    }
        
      
 }
@@ -107,8 +119,8 @@ header{
 
  @media screen and (max-width:480px){
    header{
-    height: 82vh;
-    padding-top: 5rem;
+    /* height: 82vh; */
+    /* padding-top: 5rem; */
    }
 
     h1{
@@ -122,16 +134,16 @@ header{
    
    @media screen and (max-width:413px){
     header{
-     height: 74vh;
-     padding-top: 5rem;
+     /* height: 74vh;s */
+     /* padding-top: 5rem; */
     }
    
      
 }
 @media screen and (max-width:393px){
     header{
-     height: 94vh;
-     padding-top: 5rem;
+     /* height: 94vh; */
+     /* padding-top: 200px; */
     }
    
      
@@ -141,27 +153,29 @@ header{
 
  @media screen and (max-width:380px){
     header{
-        height: 85vh;
-        padding-top: 5rem;
+        /* height: 85vh; */
+        /* padding-top: 5rem; */
        }
  
 }
 
 @media screen and (max-width:380px){
     header{
-        height: 100vh;
-        padding-top: 5rem;
+        /* height: 100vh; */
+        /* padding-top: 5rem; */
        }
 }
 
 
 @media screen and (max-width:321px){
     header{
-        height: 100vh;
-        padding-top: 5rem;
+        margin-bottom: 4rem;
        }
        h1{
        font-size:  1.5rem;
+       }
+       .me{
+
        }
 }
 

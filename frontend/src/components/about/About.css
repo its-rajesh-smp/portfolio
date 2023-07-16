@@ -1,3 +1,6 @@
+#about{
+    margin-top: 0;
+}
 .about__container{
     display: grid;
     grid-template-columns: 35% 50%;
@@ -9,7 +12,7 @@
     border-radius: 1rem;
     background: url(../../assets/mypic_background.jpg);
     display: grid;
-   place-items: center;
+    place-items: center;
 
 }
 
